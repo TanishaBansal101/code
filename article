@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Article Page</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .article-container {
+      max-width: 800px;
+      margin: auto;
+      background: #ffffff;
+      padding: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+
+    .article-title {
+      font-size: 28px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .article-meta {
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 20px;
+    }
+
+    .article-image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .article-content {
+      font-size: 17px;
+      line-height: 1.7;
+      color: #444;
+    }
+
+    .article-content p {
+      margin-bottom: 15px;
+    }
+
+    .article-content h2 {
+      margin-top: 25px;
+      font-size: 22px;
+      color: #222;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="article-container">
+    <h1 class="article-title">The Future of Web Development</h1>
+    <p class="article-meta">By Priya Sharma | April 30, 2025</p>
+    
+    <img class="article-image" src="https://via.placeholder.com/800x300" alt="Web development illustration">
+    
+    <div class="article-content">
+      <p>The web development industry is evolving faster than ever. With new frameworks, tools, and best practices, developers are constantly adapting to build faster and more interactive websites.</p>
+      
+      <h2>Emerging Trends</h2>
+      <p>In 2025, technologies like WebAssembly, AI-powered UIs, and headless CMS are gaining traction. Developers are also focusing more on performance, accessibility, and security.</p>
+      
+      <h2>Why Learn Web Development?</h2>
+      <p>Web development opens doors to freelancing, startups, and global opportunities. Whether you're designing front-end experiences or building back-end APIs, there's always something new to learn.</p>
+      
+      <p>Stay curious, keep building, and embrace lifelong learning to stay ahead in this fast-paced field!</p>
+    </div>
+  </div>
+
+</body>
+</html>
