@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background: skyblue;
+            padding: 20px;
+        }
+        form{
+            max-width: 700px;
+            margin: auto;
+            padding: 30px;
+            background: #fff;
+            border-radius: 10px;
+        }
+        h2{
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        label{
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        input,textarea,select{
+            width: 100%;
+            margin-top: 5px;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h2>Resume form</h2>
+        <form>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="education">Education</label>
+            <textarea name="education" id="education" rows="4" placeholder="e.g.= Btech in CSE from XYZ University (2023-2027)" required></textarea>
+
+            <label for="experience">Internship/Work Experience</label>
+            <textarea name="experience" id="experience" rows="4" placeholder="e.g= Intern at XYZ company" required></textarea>
+
+            <label for="skills">Skills</label>
+            <input type="text" id="skills" name="skills" required>
+
+            <label for="certifications">Certifications</label>
+            <input type="text" id="certifications" name="certifications" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
